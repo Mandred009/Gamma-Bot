@@ -9,7 +9,7 @@ def kelvin_to_celsius(kelvin):
 
 def get_weather(city):
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    api_key = '219931a4c2f0a9b8be334d1c931bbfc0'
+    api_key = 'api key'
     city = city
     url = base_url + 'appid=' + api_key + '&q=' + city
     try:
